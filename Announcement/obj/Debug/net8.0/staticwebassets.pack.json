@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Announcement.bundle.scp.css"
     },
     {
+      "Id": "D:\\homework\\Announcement\\wwwroot\\css\\create.css",
+      "PackagePath": "staticwebassets\\css\\create.css"
+    },
+    {
+      "Id": "D:\\homework\\Announcement\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "D:\\homework\\Announcement\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

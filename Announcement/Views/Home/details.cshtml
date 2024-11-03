@@ -1,0 +1,15 @@
+@model AnnouncementModel
+@{
+    ViewData["Title"] = "Announcement Details";
+}
+
+<h1>@Model.Title</h1>
+<p>@Model.Text</p>
+<p>Sorumlu Kişi: @Model.ResponsiblePerson</p>
+<p>Duyuru Tarihi : @Model.AnnouncementDate.ToString("g")</p>
+
+<a href="@Url.Action("Index")">Duyurulara Geri Dön</a>
+
+<footer>
+    <p>Developer: Şule Cengiz, Student ID: b221202018</p>
+</footer>

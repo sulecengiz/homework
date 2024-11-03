@@ -1,0 +1,27 @@
+@model AnnouncementModel
+@{
+    ViewData["Title"] = "Create Announcement";
+    ViewData["CssFile"] = "create";
+}
+
+<h1>Duyuru Ekleyin</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Başlık</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>Yazı</label>
+        <textarea asp-for="Text"></textarea>
+    </div>
+    <div>
+        <label>Sorumlu Kişi</label>
+        <input asp-for="ResponsiblePerson" />
+    </div>
+    <button type="submit">Kaydet</button>
+</form>
+
+<footer>
+    <p>Developer: Şule Cengiz, Student ID: b221202018</p>
+</footer>

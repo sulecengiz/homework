@@ -6,6 +6,16 @@
     <title>@ViewData["Title"] - Announcement</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    
+    @if (ViewData["CssFile"] != null)
+    {
+        var cssFile = ViewData["CssFile"] as string;
+        if (!string.IsNullOrEmpty(cssFile))
+        {
+            <link rel="stylesheet" href= "@string.format("wwwroot/css/{0}.css", cssfile)" asp-append-version="true" />
+        }
+    }
+
     <link rel="stylesheet" href="~/Announcement.styles.css" asp-append-version="true" />
 </head>
 <body>
