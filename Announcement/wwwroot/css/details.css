@@ -1,0 +1,84 @@
+/* Genel ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern yazı tipi */
+    background-color: #f0f4f8; /* Açık gri arka plan */
+    margin: 0; /* Varsayılan margin'i kaldır */
+    padding: 0; /* Varsayılan padding'i kaldır */
+}
+
+/* Başlık için stil */
+h1 {
+    text-align: center; /* Ortaya hizala */
+    color: #343a40; /* Koyu gri renk */
+    margin-top: 40px; /* Üst boşluk */
+    font-size: 2.5rem; /* Yazı boyutu */
+    font-weight: 600; /* Kalın yazı */
+}
+
+/* Paragraflar için stil */
+p {
+    line-height: 1.6; /* Satır yüksekliği */
+    margin: 20px 15px; /* Kenar boşlukları */
+    color: #495057; /* Daha açık koyu gri */
+    font-size: 1.1rem; /* Yazı boyutu */
+}
+
+/* Geri dön butonu için stil */
+a {
+    display: inline-block; /* Block gibi göster */
+    margin: 30px auto; /* Ortaya hizalama */
+    padding: 12px 20px; /* İç boşluk */
+    background-color: #007bff; /* Ana arka plan rengi */
+    color: white; /* Yazı rengi */
+    text-decoration: none; /* Alt çizgi yok */
+    border-radius: 25px; /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Gölge efekti */
+    transition: background-color 0.3s, transform 0.3s; /* Hover geçiş efekti */
+}
+
+a:hover {
+    background-color: #0056b3; /* Hover rengi */
+    transform: translateY(-2px); /* Hover etkisi */
+}
+
+/* Footer için stil */
+footer {
+    background-color: #b5d9ff46; /* Arka plan rengi */
+    color: #495057; /* Yazı rengi */
+    padding: 15px 0; /* Üst ve alt boşluk */
+    text-align: center; /* Ortaya hizala */
+    font-size: 14px;
+    width: 100%; /* Tam genişlik */
+    position: relative; /* Göreli konumlandırma */
+    bottom: 0; /* Alt kısımda yer alması için */
+    left: 0; /* Sol kısımda yer alması için */
+}
+
+
+/* Sayfa alanının minimum yüksekliği */
+html, body {
+    height: 100%; /* Tüm sayfa yüksekliği */
+}
+
+/* Duyuru kutusu stili */
+.announcement-box {
+    background-color: rgb(146, 211, 255); /* Beyaz arka plan */
+    border-radius: 8px; /* Köşe yuvarlama */
+    padding: 20px; /* İç boşluk */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    margin: 20px; /* Kenar boşluğu */
+}
+
+/* Özel duyuru başlığı */
+.announcement-title {
+    font-size: 1.8rem; /* Başlık yazı boyutu */
+    color: #007bff; /* Mavi renk */
+    margin-bottom: 10px; /* Alt boşluk */
+}
+
+/* Özel duyuru tarihi stili */
+.announcement-date {
+    font-size: 0.9rem; /* Yazı boyutu */
+    color: #6c757d; /* Gri renk */
+    margin-bottom: 15px; /* Alt boşluk */
+}

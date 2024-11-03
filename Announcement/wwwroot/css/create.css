@@ -1,53 +1,85 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+body{
+    margin:50px 0;
+}
+/* Form genel ayarları */
+form {
+    max-width: 500px; /* Formun maksimum genişliği */
+    margin: 20px auto; /* Ortaya hizalama */
+    padding: 20px; /* İç boşluk */
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 8px; /* Köşe yuvarlama */
+    background-color: #f9f9f9; /* Arka plan rengi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
 }
 
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
+/* Butonların hizalaması */
+button,
+.btn {
+    display: inline-block; /* Inline-block ayarı */
+    vertical-align: middle; /* Dikey hizalama */
+    padding: 10px 15px; /* İç boşluk */
+    border: none; /* Kenar yok */
+    border-radius: 4px; /* Köşe yuvarlama */
+    font-size: 16px; /* Yazı boyutu */
+    margin-right: 10px; /* Butonlar arası boşluk */
+}
+
+/* Submit butonu stili */
+button {
+    background-color: #007bff; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    cursor: pointer; /* İmleci gösterir */
+}
+
+/* Hover efekti */
+button:hover {
+    background-color: #0056b3; /* Hover rengi */
+}
+
+/* Geri Dön butonu stili */
+.btn {
+    background-color: #6c757d; /* Gri arka plan rengi */
+    color: white; /* Beyaz yazı rengi */
+    text-decoration: none; /* Alt çizgi yok */
+}
+
+.btn:hover {
+    background-color: #5a6268; /* Hover rengi */
+}
+
+/* Diğer stil ayarları (değiştirilmedi) */
+h1 {
     text-align: center;
 }
 
-h1 {
-    margin: 0;
-}
-button{
-    color: #ab227b;
+label {
+    font-weight: bold; /* Kalın yazı */
+    margin-bottom: 5px; /* Alt boşluk */
+    display: block; /* Yeni satıra geçmesi için block olarak ayarla */
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+input[type="text"],
+textarea {
+    width: 100%; /* Tam genişlik */
+    padding: 10px; /* İç boşluk */
+    margin-bottom: 15px; /* Alt boşluk */
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 4px; /* Köşe yuvarlama */
+    font-size: 16px; /* Yazı boyutu */
+}
+
+textarea {
+    height: 100px; /* Yükseklik ayarı */
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #354a3d;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.announcement {
-    background: #ffffff;
-    border: 1px solid #dddddd;
-    margin: 20px 0;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: #ab227b;
-}
-
-a:hover {
-    text-decoration: underline;
+    background-color: #b5d9ff46; /* Arka plan rengi */
+    color: #495057; /* Yazı rengi */
+    padding: 15px 0; /* Üst ve alt boşluk */
+    text-align: center; /* Ortaya hizala */
+    font-size: 14px;
+    width: 100%; /* Tam genişlik */
+    position: relative; /* Göreli konumlandırma */
+    bottom: 0; /* Alt kısımda yer alması için */
+    left: 0; /* Sol kısımda yer alması için */
 }

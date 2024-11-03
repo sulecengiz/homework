@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\create.css"
     },
     {
+      "Id": "D:\\homework\\Announcement\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
       "Id": "D:\\homework\\Announcement\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },

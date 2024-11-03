@@ -1,9 +1,6 @@
 ﻿@model List<AnnouncementApp.Models.AnnouncementModel>
-@{
-    ViewData["Title"] = "Anouncements";
-}
 @section styles
-{<link rel="stylesheet" href="~/css/index.cs" type="text/css"/>}
+{<link rel="stylesheet" href="~/css/index.css" type="text/css"/>}
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -11,9 +8,10 @@
     <title>Duyurular</title>
 </head>
 <body>
-    <h1>Duyurular</h1>
-    <p>Toplam Duyuru Sayısı: @ViewBag.TotalAnnouncements</p>
-    <p>Güncel Tarih: @ViewBag.CurrentDateTime</p>
+    <h1>Hoş Geldiniz</h1>
+    <h3 class="duyuru">Duyurular</h3>
+    <p class="duyuru">Toplam Duyuru Sayısı: @ViewBag.TotalAnnouncements</p>
+    <div class="date"><p>Güncel Tarih: @ViewBag.CurrentDateTime</p></div>
 
     <table>
         <thead>
@@ -47,6 +45,8 @@
     </table>
 
     <a href="@Url.Action("Create")">Yeni Duyuru Ekle</a>
-    <footer> Developer: Şule Cengiz</footer>
+    <footer> <div>
+        Developer: Şule Cengiz
+    </div></footer>
 </body>
 </html>

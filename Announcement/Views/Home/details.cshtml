@@ -2,7 +2,8 @@
 @{
     ViewData["Title"] = "Announcement Details";
 }
-
+@section styles
+{<link rel="stylesheet" href="~/css/details.css" type="text/css"/>}
 <h1>@Model.Title</h1>
 <p>@Model.Text</p>
 <p>Sorumlu Kişi: @Model.ResponsiblePerson</p>
@@ -11,5 +12,5 @@
 <a href="@Url.Action("Index")">Duyurulara Geri Dön</a>
 
 <footer>
-    <p>Developer: Şule Cengiz, Student ID: b221202018</p>
+    <div>Developer: Şule Cengiz, Student ID: b221202018</div>
 </footer>

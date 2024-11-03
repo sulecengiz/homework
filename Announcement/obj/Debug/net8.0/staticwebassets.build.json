@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SFp0onzKtd9mIN8qMEkWY0zPfxVYmt5i3qVDP8yP3/E=",
+  "Hash": "XCPQ+KpYD0/j5V637BUNmck+J1Uj4nwJ+mdrv5VtKkE=",
   "Source": "Announcement",
   "BasePath": "_content/Announcement",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\create.css"
+    },
+    {
+      "Identity": "D:\\homework\\Announcement\\wwwroot\\css\\details.css",
+      "SourceId": "Announcement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\homework\\Announcement\\wwwroot\\",
+      "BasePath": "_content/Announcement",
+      "RelativePath": "css/details.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "D:\\homework\\Announcement\\wwwroot\\css\\index.css",
