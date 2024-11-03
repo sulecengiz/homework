@@ -25,7 +25,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         ViewData["Title"] = "Duyuru Listesi";
-        ViewData["CssFile"] = "index"; // Doğru CSS dosyası adı
+        //ViewData["CssFile"] = "index"; // Doğru CSS dosyası adı
         ViewBag.TotalAnnouncements = announcements.Count;
         ViewBag.CurrentDateTime = DateTime.Now;
         return View(announcements);
@@ -36,7 +36,7 @@ public class HomeController : Controller
     public IActionResult Create()
     {
         ViewData["Title"] = "Yeni Duyuru Ekle";
-        ViewData["CssFile"] = "create"; // Doğru CSS dosyası adı
+        //ViewData["CssFile"] = "create"; // Doğru CSS dosyası adı
         return View();
     }
 

@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+title{
+    color: #3695d1;
+}
 
 header {
     background: #35424a;

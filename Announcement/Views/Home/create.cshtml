@@ -1,9 +1,9 @@
 @model AnnouncementModel
 @{
     ViewData["Title"] = "Create Announcement";
-    ViewData["CssFile"] = "create";
 }
-
+@section styles
+{<link rel="stylesheet" href="wwwroot/css/create.cs" type="text/css"/>}
 <h1>Duyuru Ekleyin</h1>
 
 <form asp-action="Create" method="post">

@@ -2,10 +2,11 @@
 @{
     ViewData["Title"] = "Anouncements";
 }
+@section styles
+{<link rel="stylesheet" href="wwwroot/css/index.cs" type="text/css"/>}
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <link rel="stylesheet" href="~/css/index.css"/> 
     <meta charset="utf-8" />
     <title>Duyurular</title>
 </head>
@@ -17,8 +18,7 @@
     <table>
         <thead>
             <tr>
-                <th>Başlık</th>
-                <th>Açıklama</th>
+                <th>Başlık</th>               
                 <th>Sorumlu Kişi</th>
                 <th>Tarih</th>
                 <th>Detaylar</th>
@@ -30,8 +30,7 @@
                 foreach (var announcement in Model)
                 {
                     <tr>
-                        <td>@announcement.Title</td>
-                        <td>@announcement.Text</td>
+                        <td>@announcement.Title</td>        
                         <td>@announcement.ResponsiblePerson</td>
                         <td>@announcement.AnnouncementDate.ToString("g")</td>
                         <td><a href="@Url.Action("Details", new { id = announcement.Id })">Detaylar</a></td>
@@ -48,5 +47,6 @@
     </table>
 
     <a href="@Url.Action("Create")">Yeni Duyuru Ekle</a>
+    <footer> Developer: Şule Cengiz</footer>
 </body>
 </html>
