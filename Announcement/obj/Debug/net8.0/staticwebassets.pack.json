@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "D:\\homework\\Announcement\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "D:\\homework\\Announcement\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

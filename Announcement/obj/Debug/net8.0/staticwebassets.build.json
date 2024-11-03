@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pmRa5Sp/EJk5IcozSfDsmrVUH9qTk+1K9XUnhpAVLlI=",
+  "Hash": "SFp0onzKtd9mIN8qMEkWY0zPfxVYmt5i3qVDP8yP3/E=",
   "Source": "Announcement",
   "BasePath": "_content/Announcement",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
-    },
-    {
-      "Identity": "D:\\homework\\Announcement\\wwwroot\\css\\site.css",
-      "SourceId": "Announcement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\homework\\Announcement\\wwwroot\\",
-      "BasePath": "_content/Announcement",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "D:\\homework\\Announcement\\wwwroot\\favicon.ico",
