@@ -10,19 +10,25 @@
     <div>
         <label>Başlık</label>
         <input asp-for="Title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
     </div>
     <div>
         <label>Yazı</label>
         <textarea asp-for="Text"></textarea>
+        <span asp-validation-for="Text" class="text-danger"></span>
     </div>
     <div>
         <label>Sorumlu Kişi</label>
         <input asp-for="ResponsiblePerson" />
+        <span asp-validation-for="ResponsiblePerson" class="text-danger"></span>
     </div>
     <button type="submit">Kaydet</button>
     <a asp-action="Index" class="btn btn-secondary">Geri Dön</a>
 </form>
 
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
 <footer>
-    <div>Developer: Şule Cengiz, Student ID: b221202018</div>
+    <div class="footer">Developer: Şule Cengiz, Student ID: b221202018</div>
 </footer>

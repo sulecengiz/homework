@@ -37,6 +37,8 @@ a {
 }
 
 a:hover {
+    text-decoration: underline;
+    color:#fff;
     background-color: #0056b3; /* Hover rengi */
     transform: translateY(-2px); /* Hover etkisi */
 }
@@ -50,7 +52,7 @@ footer {
     font-size: 14px;
     width: 100%; /* Tam genişlik */
     position: relative; /* Göreli konumlandırma */
-    bottom: 0; /* Alt kısımda yer alması için */
+    top: 300px; /* Alt kısımda yer alması için */
     left: 0; /* Sol kısımda yer alması için */
 }
 
@@ -81,4 +83,7 @@ html, body {
     font-size: 0.9rem; /* Yazı boyutu */
     color: #6c757d; /* Gri renk */
     margin-bottom: 15px; /* Alt boşluk */
+}
+.footer{
+    font-weight: bolder;
 }

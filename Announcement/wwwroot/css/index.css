@@ -8,7 +8,6 @@ body{
 .date{
     text-align: left;
     background-color: #b5d9ff46;
-    display: inline-block;
     float: left;
 }
 /* Genel tablo stilleri */
@@ -87,4 +86,7 @@ footer {
     position:relative;
     top: 200px;
     width: 100%;
+}
+.footer{
+    font-weight: bolder;
 }

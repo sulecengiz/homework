@@ -37,6 +37,10 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult Create(AnnouncementModel announcement)
     {
+        if (!ModelState.IsValid){
+            // Model doğrulama hatası varsa, formu yeniden göster ve hataları göster
+            return View(announcement);
+        }
         announcement.Id = Repository.Announcements.Count + 1; // Basit bir Id ataması
         announcement.AnnouncementDate = DateTime.Now; // Eklenme tarihini ayarla
         Repository.Announcements.Add(announcement);
@@ -48,11 +52,6 @@ public class HomeController : Controller
     {
         var announcement = Repository.Announcements.Find(a => a.Id == id);
         return View(announcement);
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

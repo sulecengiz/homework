@@ -79,7 +79,10 @@ footer {
     text-align: center; /* Ortaya hizala */
     font-size: 14px;
     width: 100%; /* Tam genişlik */
-    position: relative; /* Göreli konumlandırma */
-    bottom: 0; /* Alt kısımda yer alması için */
+    position: relative; 
+    top: 180px; /* Alt kısımda yer alması için */
     left: 0; /* Sol kısımda yer alması için */
+}
+.footer{
+    font-weight: bolder;
 }
